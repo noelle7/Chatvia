@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;300;400;500&display=swap");
+
+// font sizes
+$font-body-small: 14px;
+$font-body-medium: 17px;
+$font-heading: 24px;
+
+// font family
+body {
+	font-family: "Public Sans", sans-serif;
+}
+
+p {
+	font-size: $font-body-medium;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: $font-heading;
+}
+
+.signUpContainer p {
+	color: #878a92;
+}
